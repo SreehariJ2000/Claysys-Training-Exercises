@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+nav{
+          color:white;
+          background-color: black;
+          height: 50px;
+          width: 100%;
+          position: fixed;
+          display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+          
+}
+
+.nav-items  {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+.nav-items li{
+    display: inline;
+    padding: 0 15px;
+    font-size: large;
+    font-weight: bold;
+}
+
+#heading{
+    font-size: 36px;
+    color: #e50914; 
+    margin: 0;
+    font-weight: bold;
+}
+
+.nav-items li:hover {
+    color: #e50914; 
+    cursor: pointer;
+}
+
+.nav-items button {
+    background-color: #e50914;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-items button:hover {
+    background-color: #b00610; 
+}
+
+
+.search {
+    padding-right: 20px;
+}
+
+.search input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    font-size: 16px;
+    outline: none;
+    transition: width 0.3s ease;
+}
+
+
+</style>
+</head>
+<body>
+
+<nav>
+    <h1 id="heading">Netflix</h1>
+   
+    <ul class="nav-items">
+        <li>Home</li>
+        <li>About</li>  
+        <li> <button>Sign</button> </li>
+     </ul>
+     <div class="search">
+        <input type="text" placeholder="Search">
+      </div>
+
+</nav>
+
+</body>
+</html>
+
+
