@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="date" id="dt">
+
+    <script>
+        var todatDate = new Date()
+        var month =todatDate.getMonth() + 1 // 4
+        var year = todatDate.getFullYear()
+        var tdate=todatDate.getDate()
+        if (month < 10) {
+            month = "0" + month     
+        }
+
+        if (tdate < 10) {
+            tdate = "0" + tdate     
+        }
+        var maxDate = year + "-" + month + "-" + tdate
+        document.getElementById("dt").setAttribute("min",maxDate)
+
+    </script>
+
+</body>
+</html>

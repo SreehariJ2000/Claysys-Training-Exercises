@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+</head>
+<body>
+    <h1>js arrays</h1>
+
+    <p id="fruits">
+
+    </p>
+
+
+    <script>
+        const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+        document.getElementById('fruits').innerHTML = fruits
+
+        //Display elements in console using for each
+        fruits.forEach(fruit=> console.log(fruit))
+
+
+        //using for loop
+        
+        for (let i = 0; i < fruits.length; i++) {
+            console.log("using  for loop " +fruits[i])
+        }
+
+        console.log("join \n" + fruits.join(' + '))
+        fruits.push("kiwi")
+        console.log( "new array \n" + fruits )
+
+
+        console.log( "index of Orange \n" + fruits.indexOf("Orange") )
+
+        
+
+
+        
+
+        
+        
+    </script>
+</body>
+</html>
+
+
+<!-- const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let fLen = fruits.length;
+
+let text = "<ul>";
+for (let i = 0; i < fLen; i++) {
+  text += "<li>" + fruits[i] + "</li>";
+}
+text += "</ul>";
+
+document.getElementById("demo").innerHTML = text; -->

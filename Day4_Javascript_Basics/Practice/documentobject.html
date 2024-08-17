@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser objects</title>
+    <style>
+        .mydiv {
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class= "mydiv">
+        <h1 id="heading">Click Me</h1>
+        <div style="border: solid; margin-bottom: 30px ; width: 300px;;">
+            <p id="content"></p>
+           
+        </div>
+       
+
+        <form action="">
+            <input type="text" id="name" placeholder="Enter your name">
+            <input type="text" id="phone" placeholder="Enter Phone Number">
+            <button onclick="submitForm()">submit</button> 
+        </form>
+        
+    </div>
+
+    <script>
+        document.getElementById("content").innerHTML='Hello welcome';
+        document.getElementById("heading").setAttribute("style","color : red ");
+        document.getElementById("heading").addEventListener("click",myFunction);
+
+        function myFunction(){
+            document.getElementById("heading").innerHTML = "Document Object Model"
+        }
+  
+        function submitForm(){
+            var name = document.getElementById("name").value;
+            var phone = document.getElementById("phone").value;
+            
+            if (name || phone  == '') {
+                alert("please enter valid input")
+            }
+
+            if(isNaN(name)){
+                    alert("enter a valid name")
+            }
+           
+        }
+    </script>
+    
+    
+</body>
+</html>

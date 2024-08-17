@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>loop in js</h1>
+
+    <h5>for loop multiplication table of 4</h5>
+    <p id="multiplication-table"> </p>
+
+    <script>
+
+        let text=''
+        for (let i = 1; i <= 10; i++) {
+            text += i + "  *  4   =  "  + (i * 4) + "<br>" ;
+        }
+
+        document.getElementById("multiplication-table").innerHTML = text ;
+       
+        // while loop
+
+        let i = 0;
+        while (i < 10) {
+            console.log(i);
+           i++;
+        }
+
+
+        // do while
+
+        let j = 0;
+        do{
+            console.log(j);
+        }
+        while (j > 5)
+
+
+
+
+    </script>
+</body>
+</html>
