@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Task 1</title>
+</head>
+<body>
+    
+       <h1> Object Oriented Programming in Javascript</h1>
+
+       <script>
+
+        class Student{          
+               constructor (name , age , place){
+                  this.name=name;
+                  this.age=age;
+                  this.place=place;
+               }
+
+               AddCourse(course){
+                this.course = course
+               }
+
+               GetDetails(){
+                return `Name: ${this.name} , Age: ${this.age} , Place: ${this.place} , Course: ${this.course}`
+               }
+
+        }
+
+       const obj = new Student("Sreehari",22,"Pathanamthitta")
+        obj.AddCourse("MCA")
+        const details= obj.GetDetails()
+        console.log(details)
+
+        
+
+
+       </script>
+</body>
+</html>

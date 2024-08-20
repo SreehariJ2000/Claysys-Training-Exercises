@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Task 4</title>
+</head>
+<body>
+    <h1>Check a Number is Odd or Even</h1>
+    <input type="text" id="numberInput" placeholder="Enter a number">
+    <button onclick="checkOddEven()">Check</button>
+    <p id="result"></p>
+
+    <script>
+        function checkOddEven() {
+            let number = document.getElementById("numberInput").value;
+            number = parseInt(number);
+            
+            if (isNaN(number)) {
+                document.getElementById("result").innerText = ' enter a valid number.';
+            } else if (number % 2 === 0) {
+                document.getElementById("result").innerText = `${number} is even.`;
+            } else {
+                document.getElementById("result").innerText = `${number} is odd.`;
+            }
+        }
+    </script>
+</body>
+</html>

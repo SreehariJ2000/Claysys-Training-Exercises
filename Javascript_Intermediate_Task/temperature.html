@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intermediate Task 2</title>
+</head>
+<body>
+    <h1>Temperature Conversion</h1>
+    <p id="result"></p>
+
+    <script>
+        function celsiusToFahrenheit(celsius) {
+            return (celsius * 9/5) + 32;
+        }
+        const celsius = 25;
+        const fahrenheit = celsiusToFahrenheit(celsius);
+        document.getElementById('result').textContent = `${celsius} Celsius is equal to ${fahrenheit} Fahrenheit`;
+    </script>
+</body>
+</html>

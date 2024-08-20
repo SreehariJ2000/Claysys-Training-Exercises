@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intermediate Task 3</title>
+</head>
+<body>
+    <h1>Array Manipulation </h1>
+
+
+   <script>
+    const numbers = [2,10,4,30,14,8,20]
+
+    // lagest element 
+
+    let largest = numbers[0];
+        for (let i = 1; i < numbers.length; i++) {
+            if (numbers[i] > largest) {
+                largest = numbers[i];
+            }
+        }
+
+        console.log("Largest number is " + largest)
+
+    // sorted array    
+    numbers.sort(function(a, b){
+        return a-b
+    })
+    console.log(numbers)
+   </script>
+</body>
+</html>
