@@ -17,11 +17,9 @@
                     <h1 class="heading">Workshop Registration</h1>
                     <p class="header-content">Please fill out the form below to register for workshop</p>
                 </div>
-
                 <div>
                     <i class="fa-solid fa-globe icon"></i>
                 </div>
-
                 <div class="icon-heading">
                     <div>Artistry</div>
                     <div>Collective</div> 
@@ -31,69 +29,80 @@
 
         <!-- header ends-->
 
-
         <!--  form starts -->
 
-        <form class="registration-form" action="">
+        <form class="registration-form" id="registrationForm">
             <div class="grid-container">
+
                 <div class="grid-item fullname-label">
                     <label for="full-name">Full Name</label>
                 </div>
                 <div class="grid-item firstname-input">
-                    <input type="text" id="first-name" name="firstname" required>
+                    <input type="text" id="first-name"  class="input-class" onfocusout="validateFirstName()">
                     <div class="place-holder">First Name</div>
+                    <span id="firstNameError" class="error"></span>
                 </div>
                 <div class="grid-item lastname-input">
-                    <input type="text" id="last-name" name="lastname" required>
+                    <input type="text" id="last-name"  class="input-class" onfocusout="validateLastName()">
                     <div class="place-holder">Last Name</div>
+                    <span id="lastNameError" class="error"></span>
                     
                 </div>
                 <div class="grid-item email-label">
                     <label for="email">E-Mail</label>
                 </div>
                 <div class="grid-item email-input">
-                    <input type="email" id="email" name="e-mail" required>
+                    <input type="email" id="email"  class="input-class" onfocusout="validateEmail()">
                     <div class="place-holder">example@example.com</div>
+                    <span id="emailError" class="error"></span>
                 </div>
                 <div class="grid-item phone-label">
                     <label for="phone">Phone Number</label>
                 </div>
                 <div class="grid-item areacode-input">
-                    <input type="tel" id="areacode" name="area-code" required>
+                    <input type="tel" id="areacode"  class="input-class" onfocusout="validateAreaCode()">
                     <div class="place-holder">Area Code</div>
+                    <span id="areaCodeError" class="error"></span>
                 </div>
                 <div class="grid-item phone-input">
-                    <input type="tel" id="phone" name="phone-number" required>
+                    <input type="tel" id="phone"  class="input-class" onfocusout="validatePhone()">
                     <div class="place-holder">Phone Number</div>
+                    <span id="phoneError" class="error"></span>
                 </div>
                 <div class="grid-item address-label">
                     <label for="street-address"> Address</label>
                 </div>
                 <div class="grid-item street-address-input">
-                    <input type="text" id="street-address" name="streetaddress" required>
+                    <input type="text" id="street-address"  class="input-class" onfocusout="validateStreetAddress()">
                     <div class="place-holder">Street Address</div>
+                    <span id="streetAddressError" class="error"></span>
                 </div>
                 <div class="grid-item city-input">
-                    <input type="text" id="city" name="city-name" required>
+                    <input type="text" id="city"  class="input-class" onfocusout="validateCity()">
                     <div class="place-holder">City</div>
+                    <span id="cityError" class="error"></span>
                 </div>
                 <div class="grid-item state-input">
-                    <input type="text" id="state" name="state-name" required>
+                    <input type="text" id="state"  class="input-class" onfocusout="validateState()">
                     <div class="place-holder">State/Province</div>
+                    <span id="stateError" class="error"></span>
                 </div>
                 <div class="grid-item postal-code-input">
-                    <input type="text" id="postal-code" name="postal-code" required>
+                    <input type="text" id="postal-code"  class="input-class" onfocusout="validatePostalCode()">
                     <div class="place-holder">Postal/Zip Code</div>
+                    <span id="postalCodeError" class="error"></span>
                 </div>
                 <div class="grid-item country-input">
-                    <input type="text" id="country" name="country-name" required>
+                    <input type="text" id="country"  class="input-class" onfocusout="validateCountry()">
                     <div class="place-holder">Country</div>
+                    <span id="countryError" class="error"></span>
                 </div>
                 <div class="grid-item company-name-label">
                     <label for="company-name">Company Name</label>
                 </div>
                 <div class="grid-item company-name-input">
-                    <input type="text" id="company-name" name="company-name">
+                    <input type="text" id="company-name"  class="input-class" onfocusout="validateCompanyName()">
+                    <span id="companyNameError" class="error"></span>
                 </div>
                 <div class="grid-item attendee-count-label">
                     <label for="attendee-count">Attendee count</label>
@@ -102,25 +111,27 @@
                     <div class="sub-grid-item">
                         <span class="place-holder-attendee">$500x</span>  
                           
-                        <input type="number" id="attendee-count" name="attendee-count" required>
+                        <input type="number" id="attendee-count"  class="input-class" onfocusout="validateAttendeeCount()">
                     </div>
                    
                     <div class="place-holder">max 10 attendee </div>
+                    <span id="attendeeCountError" class="error"></span>
                 </div>
                 <div class="grid-item workshop-source-label">
                     <label for="workshop-source">Workshop Source?</label>
                 </div>
                 <div class="grid-item workshop-source-input">
                     <label>
-                        <input type="checkbox" name="workshop-source" value="website"> Website
+                        <input type="checkbox"  class="workshop-source" value="website"> Website
                     </label>
                     <label>
-                        <input type="checkbox" name="workshop-source" value="friendColleague"> Friend/Colleague
+                        <input type="checkbox"  class="workshop-source" value="friendColleague"> Friend/Colleague
                     </label>
                     <label>
-                        <input type="checkbox" name="workshop-source" value="onlineSearch"> Online Search
+                        <input type="checkbox"  class="workshop-source" value="onlineSearch"> Online Search
                     </label>
                 </div>
+                
                 <div class="grid-item-image">
                     <img src="footerimage1.jpg">
                 </div>
@@ -130,17 +141,27 @@
                 <div class="grid-item signature">
                     <div class="signature-box">
                         <label>Signature</label>
-                        <input type="text" placeholder="(Your Name)">
+                        <input type="text" id="signature"  name="Signature" class="input-class" onfocusout="validateSignature()">
+                        <span id="signatureError" class="error"></span>
+                        <input type="text" id="fullname" placeholder="(Your Name)"  class="input-class" onfocusout="validateFullname()">         
                       </div>
+                      <span id="fullnameError" class="error"></span>
+                     
                       <div class="date-box">
-                        <input type="text" placeholder="Date :">
+                        <label>Date :</label>
+                        <input type="date" id="date" >
                       </div>                  
                 </div>
             </div>
+
+            <div class="button-container">
+                <button type="submit">Submit</button>
+            </div> 
         </form>
    <!-- form ends -->
 
    <!--footer image start-->
+
 
         <div class="footer">
             <img src="footer-container-img.jpg" width="100%" height="20px">
@@ -148,5 +169,7 @@
         
         <!-- footer image end -->
     </div>
+
+    <script src="index.js"> </script>
 </body>
 </html>

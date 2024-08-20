@@ -9,17 +9,20 @@
 <body>
     <div class="container">
         <h1>Login</h1>
-        <form class="login-form">
+        <form class="login-form" id="loginForm">
             <div class="form-group">
                 <label for="username">Username</label>
-                <input type="text" id="username" name="username">
+                <input type="text" id="username" name="username" oninput="validateUsername()">
+                <span></span>
             </div>
             <div class="form-group">
                 <label for="password">Password</label>
-                <input type="password" id="password" name="password">
+                <input type="password" id="password" name="password" oninput="validatePassword()">
+                <span></span>
             </div>
             <button type="submit">Login</button>
         </form>
     </div>
+    <script src="login.js"></script>
 </body>
 </html>

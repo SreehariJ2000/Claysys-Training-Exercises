@@ -4,64 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us Form</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;        
-        }
-
-        .form-class {
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 40%;
-            display: flex;
-            flex-direction: column;
-            gap: 15px;          
-        }
-
-        .form-class h2 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        .form-group {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .form-group label {
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
-
-        .form-group input, 
-        .form-group textarea {
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            font-size: 16px;
-        }
-
-        .form-group textarea {
-            min-height: 100px;
-        }
-
-        .form-group button {
-            background-color: black;
-            color: #fff;
-            border: none;
-            border-radius: 4px;
-           padding: 10px;
-           font-size: 16px; 
-        }
-
-        .error{
-            color: red;
-        }
-
-    </style>
+     <link rel="stylesheet" href="contactus.css">
 </head>
 <body>
 
@@ -97,67 +40,7 @@
         </div>
     </form>
 
-
-
-    <script>
-        function validateName(){
-            const name = document.getElementById("name").value.trim();
-            if (name =='') {
-                document.getElementById("nameError").innerHTML = "Name field cannot be empty"
-            } else if (!/^[a-zA-Z\s]+$/.test(name)) {
-                document.getElementById("nameError").innerHTML = "Enter a valid name";
-            } else {
-                document.getElementById("nameError").innerHTML = '';
-            }
-        }
-
-        function validateEmail(){
-            const email = document.getElementById("email").value.trim();
-            const Pattern= /^[^\s@]+@[^\s@]+\.[^\s@]+$/
-            if (email == ''){
-                document.getElementById("emailError").innerHTML = "Email field cannot be empty";
-            } else if (!Pattern.test(email)){
-                document.getElementById("emailError").innerHTML = "Enter a valid email";
-            }
-            else{
-                document.getElementById("emailError").innerHTML = '';
-            }
-        }
-
-        function validatePhone(){
-            const phone = document.getElementById("phone").value.trim();
-             const Pattern =  /^(?!(\d)\1{9})[6,7,8,9]\d{9}$/;
-
-             if (phone == '') {
-                document.getElementById("phoneError").innerHTML = "Phone field cannot be empty"
-             }
-             else if (!Pattern.test(phone)){
-                document.getElementById("phoneError").innerHTML = "Enter a valid phone number";
-             }
-             else{
-                document.getElementById("phoneError").innerHTML = '';
-             }    
-        }
-
-        function validateMessage(){
-            const message = document.getElementById("message").value.trim();
-            if (message == '') {
-                document.getElementById("messageError").innerHTML = "Message field cannot be empty";
-            }else{
-                document.getElementById("messageError").innerHTML = '';
-            }
-        }
-
-
-        document.getElementById("contact-form").addEventListener("submit", function(e){
-            e.preventDefault();
-            validateName();
-            validateEmail();
-            validatePhone();
-            validateMessage();
-        })
-
-        
+    <script src="contactus.js">        
     </script>
 
 </body>
