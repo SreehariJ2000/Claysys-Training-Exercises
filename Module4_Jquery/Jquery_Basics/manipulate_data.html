@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Methods Demo</title>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    
+
+</head>
+<body>
+    <h1>jQuery Methods Demo</h1>
+
+  
+    <div class="content">
+        <p id="text-change">Original text content.</p>
+        <button id="set-text">add Text</button>
+        <button id="set-html">add text with tag</button>
+    </div>
+
+    
+    <div class="content">
+        <input type="text" id="input-field">
+        <button id="get-value">Get Value</button>
+        <button id="set-value">Set Value</button>
+    </div>
+
+    <div  class="content" id="append">
+        <p>Initial paragraph.</p>
+    </div>
+
+    <div class="content">
+        <button id="append-text">Append Text</button>
+        <button id="empty-div">Empty Div</button>
+    </div>
+    
+</body>
+
+
+<script>
+    $(document).ready(function(){
+
+    $(".content").css({
+        "margin": "20px",      
+        "text-align": "center",    
+        "padding": "20px",       
+    });
+
+
+    $("#set-text").click(function(){
+        $("#text-change").text("Text content has been updated.");
+    });
+
+    
+    $("#set-html").click(function(){
+        $("#text-change").html("<b>HTML content has been updated.</b>");
+    });
+
+
+    $("#get-value").click(function(){
+        alert("Input value is: " + $("#input-field").val());
+    });
+
+    
+    $("#set-value").click(function(){
+        $("#input-field").val("sreehari");
+    });
+
+    
+    $("#append-text").click(function(){
+        $("#append").append("<p>text append.</p>");
+    });
+
+
+    $("#empty-div").click(function(){
+        $("#append").empty();
+    });
+});
+
+</script>
+</html>

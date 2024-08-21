@@ -1,0 +1,99 @@
+
+.container {
+    max-width: 30%;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 4px black;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.floating-input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-group label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 16px;
+    color: #666;
+    pointer-events: none;
+}
+
+
+.form-group.label-up label {
+    top: -15px;
+    left: 10px;
+    font-size: 15px;
+    color: blue; 
+}
+
+.form-group.focus .floating-input {
+    border-color: #007bff; 
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+}
+
+.remember-me input {
+    margin-right: 10px;
+}
+
+.forgot-password {
+    text-align: right;
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-button {
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    background: linear-gradient(to right, #007bff, #00d2ff); 
+    color: #fff; 
+    font-size: 16px; 
+    cursor: pointer; 
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.validation-error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
+}
