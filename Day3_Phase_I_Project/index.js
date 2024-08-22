@@ -273,7 +273,7 @@ document.getElementById("registrationForm").addEventListener("submit",((e)=>{
 
 //Date Vadalidation
 
-var todayDate = new Date()
+        var todayDate = new Date()
         var month =todayDate.getMonth() + 1   
         var year = todayDate.getFullYear()
         var tdate = todayDate.getDate()

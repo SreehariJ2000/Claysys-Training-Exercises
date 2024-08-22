@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="registration.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="registration.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Create Your Account</h1>
+            <p>Join us today and start your journey</p>
+        </header>
+        
+        <form id="registrationForm">
+            <!-- personal  section -->
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div class="form-group">
+                    <input type="text" id="firstName" class="floating-input">
+                    <label for="firstName">First Name</label>
+                    <div id="firstNameError" class="error-message"></div>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="lastName" class="floating-input" >
+                    <label for="lastName">Last Name</label>
+                    <div id="lastNameError" class="error-message"></div>
+                </div>
+                <div class="nofloating">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob" class="floating-input">
+                    <div id="dobError" class="error-message show"></div>
+                </div>
+                <div class="nofloating">
+                    <label>Gender</label>
+                    <div class="radio-group">
+                        <input type="radio" id="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female">
+                        <label for="female">Female</label>
+                        <input type="radio" id="other">
+                        <label for="other">Other</label>
+                    </div>
+                    <div id="genderError" class="error-message show"></div>
+                </div>
+            </fieldset>
+            
+            <!-- contact section -->
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="nofloating">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" class="floating-input" placeholder="+91 9876543210">
+                    <div id="phoneError" class="error-message"></div>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" class="floating-input">
+                    <label for="email">Email Address</label>
+                    <div id="emailError" class="error-message"></div>
+                </div>
+            </fieldset>
+            
+            <!-- address section -->
+            <fieldset>
+                <legend>Address</legend>
+                <div class="form-group">
+                    <textarea id="address" class="floating-input" rows="3"></textarea>
+                    <label for="address">Address</label>
+                    <div id="addressError" class="error-message"></div>
+                </div>
+                <div class="nofloating">
+                    <label for="state">State</label>
+                    <select id="state" class="floating-input">
+                        <option selected>Select State</option>
+                        <option>Kerala</option>
+                        <option>Tamil Nadu</option>
+                        <option>Karnataka</option>
+                    </select>
+                    <div id="stateError" class="error-message show"></div>
+                </div>
+                <div class="nofloating">
+                    <label for="city">City</label>
+                    <select id="city" class="floating-input">
+                        <option selected>Pathanamthitta</option>
+                        <option selected> Kollam</option>
+                        <option selected> Kottayam</option>
+                    </select>
+                    <div id="cityError" class="error-message show"></div>
+                </div>
+            </fieldset>
+            
+            <!-- Account  Section -->
+            <fieldset>
+                <legend>Account Information</legend>
+                <div class="form-group">
+                    <input type="text" id="username" class="floating-input">
+                    <label for="username">Username</label>
+                    <div id="usernameError" class="error-message"></div>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="password" class="floating-input">
+                    <label for="password">Password</label>
+                    <div id="passwordError" class="error-message"></div>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="confirmPassword" class="floating-input">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <div id="confirmPasswordError" class="error-message"></div>
+                </div>
+            </fieldset>                            
+            <!-- Buttons -->
+            <div class="button-container">
+                <button type="submit" class="signup-button">Sign Up</button>
+            </div>
+        </form>
+        
+        <footer>
+            <p>Already have an account? <a href="#">Log in</a></p>
+        </footer>
+    </div>
+</body>
+</html>

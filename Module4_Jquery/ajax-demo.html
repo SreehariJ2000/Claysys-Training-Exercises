@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX Error Handling Example</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    
+    <script>
+        $(document).ready(function(){
+            $.get('https://jsonplaceholder.typicode.com/pots/1')
+            .done(function(data,status) {
+                    console.log(data)
+                    console.log(status)
+            })
+
+            .fail(function(error){
+                console.log("error" , error)
+            })
+
+            .always(function(){
+                console.log("always print")
+            })
+        })
+    </script>
+</head>
+<body>
+    <h1>AJAX Error Handling Example</h1>
+</body>
+</html>
