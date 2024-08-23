@@ -1,4 +1,4 @@
-body{
+.body-container{
     background-color: #c0dbf8;
 }
 .container {
@@ -10,29 +10,29 @@ body{
 }
 
 /* Header */
-header {
+.header {
     text-align: center;
     margin-bottom: 20px;
 }
 
-header h1 {
+.header h1 {
     font-size: 28px;
     color: #333;
 }
 
 
-/* Form Styles */
+/* style of form */
 #registrationForm {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-/* Form Group */
+/* form designs */
 .form-group {
     position: relative;
-    margin-bottom: 25px;
-    margin-top: 30px;
+    margin: 30px 0 25px 0;
+
 }
 
 .floating-input {
@@ -60,6 +60,8 @@ header h1 {
     color: #666;
 }
 
+/* floating label */
+
 .form-group.label-up label {
     top: -15px;
     left: 12px;
@@ -71,23 +73,22 @@ header h1 {
     border-color: #007bff;
 }
 
-/* Radio Buttons */
+
 .radio-group {
     display: flex;
     gap: 15px;
 }
 
-.radio-group input[type="radio"] {
-    margin-right: 5px;
-}
 
-/* Buttons */
+/* for button */
 
 .button-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 20px; 
+    gap: 20px;
 }
 
 .signup-button {
@@ -100,17 +101,10 @@ header h1 {
     font-size: 16px;
 }
 
-
-/* Footer */
-footer {
+.footer {
     text-align: center;
     margin-top: 20px;
 }
-
-footer a {
-    text-decoration: none;
-}
-
 
 .error-message {
     color: red;

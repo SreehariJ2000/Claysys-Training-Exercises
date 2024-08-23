@@ -183,7 +183,7 @@ $('#password').on('input', function() {
 
         if (!isValid) {
             event.preventDefault();
-            $('.show').text("Empty field")
+            $('#submit-error').text("You need to fill all the fields")
             console.log("cannot submit form")
         }
     });

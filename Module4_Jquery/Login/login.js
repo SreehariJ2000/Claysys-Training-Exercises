@@ -41,13 +41,14 @@ function validateEmail() {
 }
 
 function validatePassword() {
-    var password = $('#password').val();
+    var password = $('#password').val().trim();
     var passwordError = $('.password-error');
+    const passwordPattern = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$/; 
 
     if (!password) {
         passwordError.text('Password cannot be empty.');
-    } else if (password.length < 6) {
-        passwordError.text('Password must be at least 6 characters long.');
+    } else if (!passwordPattern.test(password)) {
+        passwordError.text("Password must contain atleast one number, one uppercase and lowercase letter and minimunlength 7");
     } else {
         passwordError.text('');
     }
@@ -59,8 +60,25 @@ function ValidateForm() {
 }
 
 $(document).ready(function() {
-    
+
     FloatingLabel();
     ValidateForm();
+
+    $('#loginForm').on('submit', function(event) {
+        let isValid = true;
+
+        $('input').each(function() {
+            const input = $(this).val().trim();
+            if (input === '') {
+                isValid = false;
+            }
+        });
+
+        if (!isValid) {
+            event.preventDefault();
+            $('.submit-error').text("You must need to fill all fields");
+            console.log("cannot submit form")
+        }
+    });
 
 });

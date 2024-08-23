@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handsontable Example</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/handsontable@8.4.0/dist/handsontable.full.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/handsontable@8.4.0/dist/handsontable.full.min.js"></script>
+</head>
+<body>
+
+<div id="example"></div>
+
+<script>
+    var data = [
+        ["Name", "Position", "Office", "Age", "Start date", "Salary"],
+        ["John Doe", "Developer", "New York", "30", "2012/04/25", "800"],
+        ["Jane Smith", "Designer", "London", "25", "2010/03/19", "750"],
+        ["Emma Brown", "Manager", "Sydney", "45", "2009/05/12", "000"]
+    ];
+
+    var container = document.getElementById('example');
+    var hot = new Handsontable(container, {
+        data: data,
+        rowHeaders: true,
+        colHeaders: true,
+        filters: true,
+        dropdownMenu: true
+    });
+</script>
+
+</body>
+</html>

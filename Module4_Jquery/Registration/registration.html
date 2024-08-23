@@ -8,9 +8,9 @@
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script src="registration.js"></script>
 </head>
-<body>
+<body class="body-container">
     <div class="container">
-        <header>
+        <header class="header">
             <h1>Create Your Account</h1>
             <p>Join us today and start your journey</p>
         </header>
@@ -84,9 +84,9 @@
                 <div class="nofloating">
                     <label for="city">City</label>
                     <select id="city" class="floating-input">
-                        <option selected>Pathanamthitta</option>
-                        <option selected> Kollam</option>
-                        <option selected> Kottayam</option>
+                        <option >Pathanamthitta</option>
+                        <option > Kollam</option>
+                        <option > Kottayam</option>
                     </select>
                     <div id="cityError" class="error-message show"></div>
                 </div>
@@ -114,11 +114,12 @@
             <!-- Buttons -->
             <div class="button-container">
                 <button type="submit" class="signup-button">Sign Up</button>
-            </div>
+                <span id="submit-error" class="error-message"></span>
+            </div>     
         </form>
         
-        <footer>
-            <p>Already have an account? <a href="#">Log in</a></p>
+        <footer class="footer">
+            <p>Already have an account? <a href="/Module4_Jquery/Login/login.html">Log in</a></p>
         </footer>
     </div>
 </body>
