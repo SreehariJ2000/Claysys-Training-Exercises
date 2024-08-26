@@ -45,6 +45,24 @@ VALUES (1, 'Sree', 19, 'B', 400 , 'kollam', '2024-08-02'),
 
 --SELECT * FROM Student WHERE Name LIKE 's%';
 
+--CREATE DATABASE SampleDB;
+
+--DROP DATABASE SampleDB;
+
+--ALTER TABLE Student ADD Gender VARCHAR(20);
+
+--ALTER TABLE Student DROP COLUMN Gender;
+
+/*
+CREATE VIEW [Age Greater Than 18]
+AS
+SELECT Age , Name 
+FROM Student 
+WHERE Age > 18;
+*/
+
+
+--SELECT * FROM [Age Greater Than 18]
 
 
 
