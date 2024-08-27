@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET\\OOPS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A185EC7-CD5C-44DF-91A8-F0BEA3DE4AD7}|OOPS\\OOPS.csproj|d:\\claysys-training-exercises\\phase_2_dot_net\\oops\\oops\\exceptionprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A185EC7-CD5C-44DF-91A8-F0BEA3DE4AD7}|OOPS\\OOPS.csproj|solutionrelative:oops\\exceptionprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A185EC7-CD5C-44DF-91A8-F0BEA3DE4AD7}|OOPS\\OOPS.csproj|d:\\claysys-training-exercises\\phase_2_dot_net\\oops\\oops\\abstractclassprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A185EC7-CD5C-44DF-91A8-F0BEA3DE4AD7}|OOPS\\OOPS.csproj|solutionrelative:oops\\abstractclassprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A185EC7-CD5C-44DF-91A8-F0BEA3DE4AD7}|OOPS\\OOPS.csproj|d:\\claysys-training-exercises\\phase_2_dot_net\\oops\\oops\\overridingprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A185EC7-CD5C-44DF-91A8-F0BEA3DE4AD7}|OOPS\\OOPS.csproj|solutionrelative:oops\\overridingprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A185EC7-CD5C-44DF-91A8-F0BEA3DE4AD7}|OOPS\\OOPS.csproj|d:\\claysys-training-exercises\\phase_2_dot_net\\oops\\oops\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A185EC7-CD5C-44DF-91A8-F0BEA3DE4AD7}|OOPS\\OOPS.csproj|solutionrelative:oops\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A185EC7-CD5C-44DF-91A8-F0BEA3DE4AD7}|OOPS\\OOPS.csproj|d:\\claysys-training-exercises\\phase_2_dot_net\\oops\\oops\\inheritanceprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A185EC7-CD5C-44DF-91A8-F0BEA3DE4AD7}|OOPS\\OOPS.csproj|solutionrelative:oops\\inheritanceprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A185EC7-CD5C-44DF-91A8-F0BEA3DE4AD7}|OOPS\\OOPS.csproj|d:\\claysys-training-exercises\\phase_2_dot_net\\oops\\oops\\propertiesprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A185EC7-CD5C-44DF-91A8-F0BEA3DE4AD7}|OOPS\\OOPS.csproj|solutionrelative:oops\\propertiesprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExceptionProgram.cs",
+              "DocumentMoniker": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET\\OOPS\\OOPS\\ExceptionProgram.cs",
+              "RelativeDocumentMoniker": "OOPS\\ExceptionProgram.cs",
+              "ToolTip": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET\\OOPS\\OOPS\\ExceptionProgram.cs",
+              "RelativeToolTip": "OOPS\\ExceptionProgram.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAIwBMAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T16:23:14.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AbstractclassProgram.cs",
+              "DocumentMoniker": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET\\OOPS\\OOPS\\AbstractclassProgram.cs",
+              "RelativeDocumentMoniker": "OOPS\\AbstractclassProgram.cs",
+              "ToolTip": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET\\OOPS\\OOPS\\AbstractclassProgram.cs",
+              "RelativeToolTip": "OOPS\\AbstractclassProgram.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA9wBQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T16:11:51.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OverridingProgram.cs",
+              "DocumentMoniker": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET\\OOPS\\OOPS\\OverridingProgram.cs",
+              "RelativeDocumentMoniker": "OOPS\\OverridingProgram.cs",
+              "ToolTip": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET\\OOPS\\OOPS\\OverridingProgram.cs",
+              "RelativeToolTip": "OOPS\\OverridingProgram.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAwwB4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T15:47:09.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PropertiesProgram.cs",
+              "DocumentMoniker": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET\\OOPS\\OOPS\\PropertiesProgram.cs",
+              "RelativeDocumentMoniker": "OOPS\\PropertiesProgram.cs",
+              "ToolTip": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET\\OOPS\\OOPS\\PropertiesProgram.cs",
+              "RelativeToolTip": "OOPS\\PropertiesProgram.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA/wA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T15:27:24.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InheritanceProgram.cs",
+              "DocumentMoniker": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET\\OOPS\\OOPS\\InheritanceProgram.cs",
+              "RelativeDocumentMoniker": "OOPS\\InheritanceProgram.cs",
+              "ToolTip": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET\\OOPS\\OOPS\\InheritanceProgram.cs",
+              "RelativeToolTip": "OOPS\\InheritanceProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T13:00:04.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET\\OOPS\\OOPS\\Program.cs",
+              "RelativeDocumentMoniker": "OOPS\\Program.cs",
+              "ToolTip": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET\\OOPS\\OOPS\\Program.cs",
+              "RelativeToolTip": "OOPS\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T12:24:51.77Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

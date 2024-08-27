@@ -1,0 +1,15 @@
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Conditional_and_loops\Conditional_and_loops\bin\Debug\net8.0\Conditional_and_loops.exe
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Conditional_and_loops\Conditional_and_loops\bin\Debug\net8.0\Conditional_and_loops.deps.json
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Conditional_and_loops\Conditional_and_loops\bin\Debug\net8.0\Conditional_and_loops.runtimeconfig.json
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Conditional_and_loops\Conditional_and_loops\bin\Debug\net8.0\Conditional_and_loops.dll
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Conditional_and_loops\Conditional_and_loops\bin\Debug\net8.0\Conditional_and_loops.pdb
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Conditional_and_loops\Conditional_and_loops\obj\Debug\net8.0\Conditional_and_loops.GeneratedMSBuildEditorConfig.editorconfig
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Conditional_and_loops\Conditional_and_loops\obj\Debug\net8.0\Conditional_and_loops.AssemblyInfoInputs.cache
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Conditional_and_loops\Conditional_and_loops\obj\Debug\net8.0\Conditional_and_loops.AssemblyInfo.cs
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Conditional_and_loops\Conditional_and_loops\obj\Debug\net8.0\Conditional_and_loops.csproj.CoreCompileInputs.cache
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Conditional_and_loops\Conditional_and_loops\obj\Debug\net8.0\Conditional_and_loops.sourcelink.json
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Conditional_and_loops\Conditional_and_loops\obj\Debug\net8.0\Conditional_and_loops.dll
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Conditional_and_loops\Conditional_and_loops\obj\Debug\net8.0\refint\Conditional_and_loops.dll
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Conditional_and_loops\Conditional_and_loops\obj\Debug\net8.0\Conditional_and_loops.pdb
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Conditional_and_loops\Conditional_and_loops\obj\Debug\net8.0\Conditional_and_loops.genruntimeconfig.cache
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Conditional_and_loops\Conditional_and_loops\obj\Debug\net8.0\ref\Conditional_and_loops.dll

@@ -1,6 +1,6 @@
 CREATE DATABASE SambleDB;
 USE SambleDB;
-
+/*
 CREATE TABLE Store  (
               StoreID INT PRIMARY KEY IDENTITY(1 ,1),
 			  Place VARCHAR (100) NOT NULL ,
@@ -38,3 +38,4 @@ EXECUTE StoreOperations @Type ="INSERT"  ,@Place ="kotm" , @Started_At = "2022-0
 EXECUTE StoreOperations @Type = 'delete' , @StoreID = 1;
 
 select * from Store
+*/

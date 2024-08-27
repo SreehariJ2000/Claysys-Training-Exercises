@@ -41,3 +41,6 @@ FROM employee
 GROUP BY Department
 
 */
+
+select * from employee
+

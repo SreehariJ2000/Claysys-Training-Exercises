@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET\\CSharp_Practice\\Conditional_Statments\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A582FA06-B3D9-42EE-9D83-930A4E3C6D01}|Conditional_Statments\\Conditional_Statments.csproj|d:\\claysys-training-exercises\\phase_2_dot_net\\csharp_practice\\conditional_statments\\conditional_statments\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A582FA06-B3D9-42EE-9D83-930A4E3C6D01}|Conditional_Statments\\Conditional_Statments.csproj|solutionrelative:conditional_statments\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET\\CSharp_Practice\\Conditional_Statments\\Conditional_Statments\\Program.cs",
+              "RelativeDocumentMoniker": "Conditional_Statments\\Program.cs",
+              "ToolTip": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET\\CSharp_Practice\\Conditional_Statments\\Conditional_Statments\\Program.cs",
+              "RelativeToolTip": "Conditional_Statments\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAwBEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T10:34:23.843Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

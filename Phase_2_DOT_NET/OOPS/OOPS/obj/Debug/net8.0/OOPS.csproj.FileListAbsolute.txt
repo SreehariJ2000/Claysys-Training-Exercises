@@ -1,0 +1,15 @@
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\OOPS\OOPS\bin\Debug\net8.0\OOPS.exe
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\OOPS\OOPS\bin\Debug\net8.0\OOPS.deps.json
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\OOPS\OOPS\bin\Debug\net8.0\OOPS.runtimeconfig.json
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\OOPS\OOPS\bin\Debug\net8.0\OOPS.dll
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\OOPS\OOPS\bin\Debug\net8.0\OOPS.pdb
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\OOPS\OOPS\obj\Debug\net8.0\OOPS.GeneratedMSBuildEditorConfig.editorconfig
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\OOPS\OOPS\obj\Debug\net8.0\OOPS.AssemblyInfoInputs.cache
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\OOPS\OOPS\obj\Debug\net8.0\OOPS.AssemblyInfo.cs
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\OOPS\OOPS\obj\Debug\net8.0\OOPS.csproj.CoreCompileInputs.cache
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\OOPS\OOPS\obj\Debug\net8.0\OOPS.sourcelink.json
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\OOPS\OOPS\obj\Debug\net8.0\OOPS.dll
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\OOPS\OOPS\obj\Debug\net8.0\refint\OOPS.dll
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\OOPS\OOPS\obj\Debug\net8.0\OOPS.pdb
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\OOPS\OOPS\obj\Debug\net8.0\OOPS.genruntimeconfig.cache
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\OOPS\OOPS\obj\Debug\net8.0\ref\OOPS.dll

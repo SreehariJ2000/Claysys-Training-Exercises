@@ -1,0 +1,15 @@
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Arrays\Arrays\bin\Debug\net8.0\Arrays.exe
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Arrays\Arrays\bin\Debug\net8.0\Arrays.deps.json
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Arrays\Arrays\bin\Debug\net8.0\Arrays.runtimeconfig.json
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Arrays\Arrays\bin\Debug\net8.0\Arrays.dll
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Arrays\Arrays\bin\Debug\net8.0\Arrays.pdb
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Arrays\Arrays\obj\Debug\net8.0\Arrays.GeneratedMSBuildEditorConfig.editorconfig
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Arrays\Arrays\obj\Debug\net8.0\Arrays.AssemblyInfoInputs.cache
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Arrays\Arrays\obj\Debug\net8.0\Arrays.AssemblyInfo.cs
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Arrays\Arrays\obj\Debug\net8.0\Arrays.csproj.CoreCompileInputs.cache
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Arrays\Arrays\obj\Debug\net8.0\Arrays.sourcelink.json
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Arrays\Arrays\obj\Debug\net8.0\Arrays.dll
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Arrays\Arrays\obj\Debug\net8.0\refint\Arrays.dll
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Arrays\Arrays\obj\Debug\net8.0\Arrays.pdb
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Arrays\Arrays\obj\Debug\net8.0\Arrays.genruntimeconfig.cache
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\Arrays\Arrays\obj\Debug\net8.0\ref\Arrays.dll

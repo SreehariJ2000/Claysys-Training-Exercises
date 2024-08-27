@@ -70,13 +70,22 @@ INSERT INTO Orders (OrderDate, CustomerID, ProductID, Quantity) VALUES
 
 */
 
-SELECT * FROM Orders
-SELECT * FROM Products
-SELECT * FROM Categories
-SELECT * FROM Customers
+
 
 /*
-Query 1: Retrieve total sales for each product category, including categories where total sales exceed 2000.
+
+--Retrieve the names of customers who have ordered products in the 'Electronics' category,
+--along with the product names and order quantities.
+
+SELECT c.CustomerName, p.ProductName, o.Quantity , ca.CategoryName 
+FROM Orders o
+JOIN Customers c ON o.CustomerID = c.CustomerID
+JOIN Products p ON p.ProductID = o.ProductID
+JOIN Categories ca ON ca.CategoryID = p.CategoryID
+WHERE ca.CategoryName = 'Electronics'
+
+
+ Retrieve total sales for each product category, including categories where total sales exceed 2000.
 
 SELECT  p.CategoryID , SUM(o.Quantity * p.Price)  
 FROM Orders o
@@ -110,5 +119,40 @@ Where (c. CategoryName = 'Electronics' OR c. CategoryName = 'Furniture')  AND (p
 order by   p.Price desc
 
 */
+
+/*
+List all orders along with the names of the customers who placed them.
+Include the order date and the product names in the result.
+
+
+SELECT o.OrderID , O.OrderDate , p.ProductName
+FROM Orders o
+ JOIN Products p
+ON o.ProductID  = p.ProductID;
+
+*/
+
+
+
+/*
+Find all products that belong to the 'Electronics' category and list their names along with
+their prices and stock quantities.
+
+SELECT p.ProductName , p.Price ,p.Stock , c.CategoryName
+FROM Products p
+JOIN Categories c
+ON p.CategoryID = c.CategoryID
+WHERE c.CategoryName = 'Electronics'
+
+*/
+
+SELECT * FROM Orders
+SELECT * FROM Products
+SELECT * FROM Categories
+SELECT * FROM Customers
+
+
+
+
 
 

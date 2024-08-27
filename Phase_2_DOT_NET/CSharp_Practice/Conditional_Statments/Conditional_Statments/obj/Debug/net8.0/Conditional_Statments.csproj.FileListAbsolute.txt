@@ -1,0 +1,15 @@
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\Conditional_Statments\Conditional_Statments\bin\Debug\net8.0\Conditional_Statments.exe
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\Conditional_Statments\Conditional_Statments\bin\Debug\net8.0\Conditional_Statments.deps.json
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\Conditional_Statments\Conditional_Statments\bin\Debug\net8.0\Conditional_Statments.runtimeconfig.json
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\Conditional_Statments\Conditional_Statments\bin\Debug\net8.0\Conditional_Statments.dll
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\Conditional_Statments\Conditional_Statments\bin\Debug\net8.0\Conditional_Statments.pdb
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\Conditional_Statments\Conditional_Statments\obj\Debug\net8.0\Conditional_Statments.GeneratedMSBuildEditorConfig.editorconfig
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\Conditional_Statments\Conditional_Statments\obj\Debug\net8.0\Conditional_Statments.AssemblyInfoInputs.cache
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\Conditional_Statments\Conditional_Statments\obj\Debug\net8.0\Conditional_Statments.AssemblyInfo.cs
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\Conditional_Statments\Conditional_Statments\obj\Debug\net8.0\Conditional_Statments.csproj.CoreCompileInputs.cache
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\Conditional_Statments\Conditional_Statments\obj\Debug\net8.0\Conditional_Statments.sourcelink.json
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\Conditional_Statments\Conditional_Statments\obj\Debug\net8.0\Conditional_Statments.dll
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\Conditional_Statments\Conditional_Statments\obj\Debug\net8.0\refint\Conditional_Statments.dll
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\Conditional_Statments\Conditional_Statments\obj\Debug\net8.0\Conditional_Statments.pdb
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\Conditional_Statments\Conditional_Statments\obj\Debug\net8.0\Conditional_Statments.genruntimeconfig.cache
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\Conditional_Statments\Conditional_Statments\obj\Debug\net8.0\ref\Conditional_Statments.dll

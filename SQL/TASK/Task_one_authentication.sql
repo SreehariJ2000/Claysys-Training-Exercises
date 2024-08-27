@@ -1,6 +1,6 @@
 --use AuthenticationDB;
 --TASK 1 and 2
-
+                         -- CREATE TABLE
 /*
 CREATE TABLE Signup (
    UserID INT PRIMARY KEY IDENTITY(1,1),
@@ -16,9 +16,7 @@ CREATE TABLE Signup (
 );
 */
 
-
-
-
+                            -- INSERT VALUES
 
 /*
 INSERT INTO Signup (Username, Email, User_Password, Phone, Gender, DateOfBirth, StreetAddress, City, Country) 
@@ -44,7 +42,7 @@ WHERE UserID = 3;
 
 */
 
-  
+
 
   --Login table
   /*

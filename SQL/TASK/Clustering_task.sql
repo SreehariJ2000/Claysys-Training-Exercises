@@ -15,14 +15,7 @@ VALUES
 
 */
 
-
-
---sp_helpindex PersonalInfo;
-
-/*
-ALTER TABLE PersonalInfo
-DROP CONSTRAINT PK__Personal__3214EC2727BCDA5B;
-*/
+-- sp_helpindex PersonalInfo;
 
 --CREATE CLUSTERED INDEX IX_PersonalInfo_Salary ON PersonalInfo(Salary DESC);
 

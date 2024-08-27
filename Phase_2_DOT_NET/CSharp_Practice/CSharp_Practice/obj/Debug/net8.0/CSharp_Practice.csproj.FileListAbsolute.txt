@@ -1,0 +1,15 @@
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\CSharp_Practice\bin\Debug\net8.0\CSharp_Practice.exe
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\CSharp_Practice\bin\Debug\net8.0\CSharp_Practice.deps.json
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\CSharp_Practice\bin\Debug\net8.0\CSharp_Practice.runtimeconfig.json
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\CSharp_Practice\bin\Debug\net8.0\CSharp_Practice.dll
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\CSharp_Practice\bin\Debug\net8.0\CSharp_Practice.pdb
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\CSharp_Practice\obj\Debug\net8.0\CSharp_Practice.GeneratedMSBuildEditorConfig.editorconfig
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\CSharp_Practice\obj\Debug\net8.0\CSharp_Practice.AssemblyInfoInputs.cache
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\CSharp_Practice\obj\Debug\net8.0\CSharp_Practice.AssemblyInfo.cs
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\CSharp_Practice\obj\Debug\net8.0\CSharp_Practice.csproj.CoreCompileInputs.cache
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\CSharp_Practice\obj\Debug\net8.0\CSharp_Practice.sourcelink.json
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\CSharp_Practice\obj\Debug\net8.0\CSharp_Practice.dll
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\CSharp_Practice\obj\Debug\net8.0\refint\CSharp_Practice.dll
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\CSharp_Practice\obj\Debug\net8.0\CSharp_Practice.pdb
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\CSharp_Practice\obj\Debug\net8.0\CSharp_Practice.genruntimeconfig.cache
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CSharp_Practice\CSharp_Practice\obj\Debug\net8.0\ref\CSharp_Practice.dll
