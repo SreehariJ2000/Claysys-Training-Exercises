@@ -1,4 +1,5 @@
 ﻿
+
 namespace ClassAndObjects
 {
     class Program

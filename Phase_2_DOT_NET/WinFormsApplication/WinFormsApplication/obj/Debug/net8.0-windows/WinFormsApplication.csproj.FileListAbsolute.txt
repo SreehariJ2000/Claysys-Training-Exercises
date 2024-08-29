@@ -1,0 +1,17 @@
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\WinFormsApplication\WinFormsApplication\bin\Debug\net8.0-windows\WinFormsApplication.exe
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\WinFormsApplication\WinFormsApplication\bin\Debug\net8.0-windows\WinFormsApplication.deps.json
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\WinFormsApplication\WinFormsApplication\bin\Debug\net8.0-windows\WinFormsApplication.runtimeconfig.json
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\WinFormsApplication\WinFormsApplication\bin\Debug\net8.0-windows\WinFormsApplication.dll
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\WinFormsApplication\WinFormsApplication\bin\Debug\net8.0-windows\WinFormsApplication.pdb
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\WinFormsApplication\WinFormsApplication\obj\Debug\net8.0-windows\WinFormsApplication.Form1.resources
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\WinFormsApplication\WinFormsApplication\obj\Debug\net8.0-windows\WinFormsApplication.csproj.GenerateResource.cache
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\WinFormsApplication\WinFormsApplication\obj\Debug\net8.0-windows\WinFormsApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\WinFormsApplication\WinFormsApplication\obj\Debug\net8.0-windows\WinFormsApplication.AssemblyInfoInputs.cache
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\WinFormsApplication\WinFormsApplication\obj\Debug\net8.0-windows\WinFormsApplication.AssemblyInfo.cs
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\WinFormsApplication\WinFormsApplication\obj\Debug\net8.0-windows\WinFormsApplication.csproj.CoreCompileInputs.cache
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\WinFormsApplication\WinFormsApplication\obj\Debug\net8.0-windows\WinFormsApplication.sourcelink.json
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\WinFormsApplication\WinFormsApplication\obj\Debug\net8.0-windows\WinFormsApplication.dll
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\WinFormsApplication\WinFormsApplication\obj\Debug\net8.0-windows\refint\WinFormsApplication.dll
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\WinFormsApplication\WinFormsApplication\obj\Debug\net8.0-windows\WinFormsApplication.pdb
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\WinFormsApplication\WinFormsApplication\obj\Debug\net8.0-windows\WinFormsApplication.genruntimeconfig.cache
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\WinFormsApplication\WinFormsApplication\obj\Debug\net8.0-windows\ref\WinFormsApplication.dll

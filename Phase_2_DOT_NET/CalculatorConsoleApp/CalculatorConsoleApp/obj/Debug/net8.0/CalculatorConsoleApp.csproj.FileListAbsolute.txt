@@ -1,0 +1,15 @@
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CalculatorConsoleApp\CalculatorConsoleApp\bin\Debug\net8.0\CalculatorConsoleApp.exe
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CalculatorConsoleApp\CalculatorConsoleApp\bin\Debug\net8.0\CalculatorConsoleApp.deps.json
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CalculatorConsoleApp\CalculatorConsoleApp\bin\Debug\net8.0\CalculatorConsoleApp.runtimeconfig.json
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CalculatorConsoleApp\CalculatorConsoleApp\bin\Debug\net8.0\CalculatorConsoleApp.dll
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CalculatorConsoleApp\CalculatorConsoleApp\bin\Debug\net8.0\CalculatorConsoleApp.pdb
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CalculatorConsoleApp\CalculatorConsoleApp\obj\Debug\net8.0\CalculatorConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CalculatorConsoleApp\CalculatorConsoleApp\obj\Debug\net8.0\CalculatorConsoleApp.AssemblyInfoInputs.cache
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CalculatorConsoleApp\CalculatorConsoleApp\obj\Debug\net8.0\CalculatorConsoleApp.AssemblyInfo.cs
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CalculatorConsoleApp\CalculatorConsoleApp\obj\Debug\net8.0\CalculatorConsoleApp.csproj.CoreCompileInputs.cache
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CalculatorConsoleApp\CalculatorConsoleApp\obj\Debug\net8.0\CalculatorConsoleApp.sourcelink.json
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CalculatorConsoleApp\CalculatorConsoleApp\obj\Debug\net8.0\CalculatorConsoleApp.dll
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CalculatorConsoleApp\CalculatorConsoleApp\obj\Debug\net8.0\refint\CalculatorConsoleApp.dll
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CalculatorConsoleApp\CalculatorConsoleApp\obj\Debug\net8.0\CalculatorConsoleApp.pdb
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CalculatorConsoleApp\CalculatorConsoleApp\obj\Debug\net8.0\CalculatorConsoleApp.genruntimeconfig.cache
+D:\Claysys-Training-Exercises\Phase_2_DOT_NET\CalculatorConsoleApp\CalculatorConsoleApp\obj\Debug\net8.0\ref\CalculatorConsoleApp.dll
