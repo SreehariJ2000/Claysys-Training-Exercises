@@ -1,66 +1,74 @@
-﻿@model SignupWebApplication.Models.User
+﻿
+<link href="~/Content/CustomCSS/Signup.css" rel="stylesheet" />
+
+@model SignupWebApplication.Models.User
 
 
-@using (Html.BeginForm()) 
+@if (TempData["ErrorMessage"] != null)
 {
-    @Html.AntiForgeryToken()
-    
-    <div class="form-horizontal">
-        <h4>User</h4>
-        <hr />
+    <div class="alert-message">
+        <strong>Error! </strong>
+        @TempData["ErrorMessage"]
+        <button type="button" class="close-btn" aria-label="Close">
+            <span>x</span>
+        </button>
+    </div>
+}
+
+@using (Html.BeginForm())
+{
+    <div class="form-container">
+        <h4 class="form-title">Sign up</h4>
+
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
         <div class="form-group">
-            @Html.LabelFor(model => model.FirstName, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.LabelFor(model => model.FirstName, new { @class = "form-label" })
+            <div class="input-container">
+                @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-input" } })
                 @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
             </div>
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.LastName, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.LabelFor(model => model.LastName, new { @class = "form-label" })
+            <div class="input-container">
+                @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-input" } })
                 @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
             </div>
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.LabelFor(model => model.Email, new { @class = "form-label" })
+            <div class="input-container">
+                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-input" } })
                 @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
             </div>
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.User_Password, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.User_Password, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.LabelFor(model => model.User_Password, new { @class = "form-label" })
+            <div class="input-container">
+
+                @Html.TextBoxFor(model => model.User_Password, new { @class = "form-input", @type = "password" })
                 @Html.ValidationMessageFor(model => model.User_Password, "", new { @class = "text-danger" })
             </div>
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.Phone, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Phone, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.LabelFor(model => model.Phone, new { @class = "form-label" })
+            <div class="input-container">
+                @Html.EditorFor(model => model.Phone, new { htmlAttributes = new { @class = "form-input" } })
                 @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
             </div>
         </div>
 
-        <div class="form-group">
-            <div class="col-md-offset-2 col-md-10">
-                <button type="submit" class="btn btn-primary">Create</button>
-            </div>
+        <div class="form-group submit-container">
+            <button type="submit" class="submit-btn">Create</button>
         </div>
     </div>
 }
 
-<div>
+<div class="back-link">
     @Html.ActionLink("Back to List", "Index")
 </div>
-
-@section Scripts {
-    @Scripts.Render("~/bundles/jqueryval")
-}

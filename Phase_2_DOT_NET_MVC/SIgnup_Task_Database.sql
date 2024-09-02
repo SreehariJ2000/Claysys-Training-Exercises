@@ -79,3 +79,18 @@ execute spInsertUser
 
 execute spGetAllUserData;
 */
+
+
+
+
+CREATE PROCEDURE spSearchUsers
+    @SearchTerm NVARCHAR(50)
+AS
+BEGIN
+    SELECT UserID, FirstName, LastName, Email, Phone
+    FROM Signup
+    WHERE FirstName LIKE '%' + @SearchTerm + '%'
+       OR LastName LIKE '%' + @SearchTerm + '%'
+       OR Email LIKE '%' + @SearchTerm + '%'
+       OR Phone LIKE '%' + @SearchTerm + '%'
+END

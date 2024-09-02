@@ -10,11 +10,11 @@ namespace SignupWebApplication.Controllers
 {
     public class UserController : Controller
     {
-        private readonly UserRepository _repository = new UserRepository();
+         UserRepository repository = new UserRepository();
         // get all users
         public ActionResult Index()
         {
-            var users = _repository.GetAllUsers();
+            var users = repository.GetAllUsers();
             return View(users);
         }
 
@@ -27,12 +27,71 @@ namespace SignupWebApplication.Controllers
         [HttpPost]
         public ActionResult Create(User user)
         {
+            bool IsInserted = false;
             if (ModelState.IsValid)
             {
-                _repository.AddUser(user);
+                IsInserted =  repository.AddUser(user);
+
+                if (IsInserted)
+                {
+                    TempData["SucessMessage"] = "User added sucessfully";
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    TempData["ErrorMessage"] = "Unable to add User";
+                }
+
+            }
+            return View(user);
+        }
+
+
+        public ActionResult Edit(int id)
+        {
+            var user = repository.GetAllUsers().Find(u => u.UserID == id);
+            if (user == null)
+            {
+                return Content("user not found");
+            }
+            return View(user);
+            
+            //return Content("sucess");
+        }
+
+
+        [HttpPost]
+        public ActionResult Edit(int id, User user)
+        {
+            if (ModelState.IsValid)
+            {
+                user.UserID = id; 
+                repository.UpdateUser(user);
                 return RedirectToAction("Index");
             }
             return View(user);
+        }
+
+
+        public ActionResult Delete(int id)
+        {
+            repository.DeleteUser(id);
+            return RedirectToAction("Index");
+        }
+
+
+        public ActionResult SearchUser()
+        {
+            
+
+            return View();
+        }
+
+
+        public ActionResult Search(string searchTerm)
+        {
+            var users = repository.SearchUsers(searchTerm);
+            return Json(users, JsonRequestBehavior.AllowGet);
         }
     }
 }

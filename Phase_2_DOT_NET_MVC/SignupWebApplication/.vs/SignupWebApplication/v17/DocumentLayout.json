@@ -3,36 +3,56 @@
   "WorkspaceRootPath": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|d:\\claysys-training-exercises\\phase_2_dot_net_mvc\\signupwebapplication\\signupwebapplication\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|solutionrelative:signupwebapplication\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|d:\\claysys-training-exercises\\phase_2_dot_net_mvc\\signupwebapplication\\signupwebapplication\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|solutionrelative:signupwebapplication\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|d:\\claysys-training-exercises\\phase_2_dot_net_mvc\\signupwebapplication\\signupwebapplication\\views\\user\\searchuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|solutionrelative:signupwebapplication\\views\\user\\searchuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|d:\\claysys-training-exercises\\phase_2_dot_net_mvc\\signupwebapplication\\signupwebapplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|solutionrelative:signupwebapplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|d:\\claysys-training-exercises\\phase_2_dot_net_mvc\\signupwebapplication\\signupwebapplication\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\signupwebapplication\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|solutionrelative:signupwebapplication\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\signupwebapplication\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|solutionrelative:signupwebapplication\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\signupwebapplication\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|solutionrelative:signupwebapplication\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|d:\\claysys-training-exercises\\phase_2_dot_net_mvc\\signupwebapplication\\signupwebapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|solutionrelative:signupwebapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\signupwebapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|solutionrelative:signupwebapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|d:\\claysys-training-exercises\\phase_2_dot_net_mvc\\signupwebapplication\\signupwebapplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\signupwebapplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|solutionrelative:signupwebapplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|d:\\claysys-training-exercises\\phase_2_dot_net_mvc\\signupwebapplication\\signupwebapplication\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\signupwebapplication\\content\\customcss\\signup.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|solutionrelative:signupwebapplication\\content\\customcss\\signup.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\signupwebapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|solutionrelative:signupwebapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\signupwebapplication\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|solutionrelative:signupwebapplication\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|d:\\claysys-training-exercises\\phase_2_dot_net_mvc\\signupwebapplication\\signupwebapplication\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|solutionrelative:signupwebapplication\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\signupwebapplication\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|solutionrelative:signupwebapplication\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\signupwebapplication\\scripts\\customscripts\\autohidealert.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|solutionrelative:signupwebapplication\\scripts\\customscripts\\autohidealert.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\signupwebapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAE9C393-2DF8-4FBF-9BFB-0A4A762B17A9}|SignupWebApplication\\SignupWebApplication.csproj|solutionrelative:signupwebapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,38 +67,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Views\\User\\Index.cshtml",
-              "RelativeDocumentMoniker": "SignupWebApplication\\Views\\User\\Index.cshtml",
-              "ToolTip": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Views\\User\\Index.cshtml",
-              "RelativeToolTip": "SignupWebApplication\\Views\\User\\Index.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAswCkAAAANAAAA",
+              "Title": "SearchUser.cshtml",
+              "DocumentMoniker": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Views\\User\\SearchUser.cshtml",
+              "RelativeDocumentMoniker": "SignupWebApplication\\Views\\User\\SearchUser.cshtml",
+              "ToolTip": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Views\\User\\SearchUser.cshtml",
+              "RelativeToolTip": "SignupWebApplication\\Views\\User\\SearchUser.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAB4AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-29T15:57:55.018Z",
+              "WhenOpened": "2024-08-31T14:28:35.24Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "SignupWebApplication\\Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "SignupWebApplication\\Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SignupWebApplication\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SignupWebApplication\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-29T14:47:41.959Z",
+              "WhenOpened": "2024-08-31T10:57:45.624Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "SignupWebApplication\\Repository\\UserRepository.cs",
+              "ToolTip": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "SignupWebApplication\\Repository\\UserRepository.cs",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAqwHUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T14:22:19.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Views\\User\\Create.cshtml",
               "RelativeDocumentMoniker": "SignupWebApplication\\Views\\User\\Create.cshtml",
               "ToolTip": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Views\\User\\Create.cshtml",
               "RelativeToolTip": "SignupWebApplication\\Views\\User\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAcAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-29T14:47:28.766Z",
               "EditorCaption": ""
@@ -86,45 +119,106 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Views\\User\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SignupWebApplication\\Views\\User\\Edit.cshtml",
+              "ToolTip": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Views\\User\\Edit.cshtml",
+              "RelativeToolTip": "SignupWebApplication\\Views\\User\\Edit.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADcAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T02:44:14.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "SignupWebApplication\\Controllers\\UserController.cs",
               "ToolTip": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Controllers\\UserController.cs",
               "RelativeToolTip": "SignupWebApplication\\Controllers\\UserController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwCAAAAAxAAAA",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAmwFgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T14:34:36.516Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "SignupWebApplication\\Repository\\UserRepository.cs",
-              "ToolTip": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Repository\\UserRepository.cs",
-              "RelativeToolTip": "SignupWebApplication\\Repository\\UserRepository.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAIwDsAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:22:19.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Models\\User.cs",
               "RelativeDocumentMoniker": "SignupWebApplication\\Models\\User.cs",
               "ToolTip": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Models\\User.cs",
               "RelativeToolTip": "SignupWebApplication\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T14:13:48.678Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SignupWebApplication\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SignupWebApplication\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T03:10:24.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Web.config",
+              "RelativeDocumentMoniker": "SignupWebApplication\\Web.config",
+              "ToolTip": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Web.config",
+              "RelativeToolTip": "SignupWebApplication\\Web.config",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAD4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-29T13:38:32.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Signup.css",
+              "DocumentMoniker": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Content\\CustomCSS\\Signup.css",
+              "RelativeDocumentMoniker": "SignupWebApplication\\Content\\CustomCSS\\Signup.css",
+              "ToolTip": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Content\\CustomCSS\\Signup.css",
+              "RelativeToolTip": "SignupWebApplication\\Content\\CustomCSS\\Signup.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-31T02:51:06.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "SignupWebApplication\\Views\\User\\Index.cshtml",
+              "ToolTip": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "SignupWebApplication\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T15:57:55.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AutoHideAlert.js",
+              "DocumentMoniker": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Scripts\\CustomScripts\\AutoHideAlert.js",
+              "RelativeDocumentMoniker": "SignupWebApplication\\Scripts\\CustomScripts\\AutoHideAlert.js",
+              "ToolTip": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Scripts\\CustomScripts\\AutoHideAlert.js",
+              "RelativeToolTip": "SignupWebApplication\\Scripts\\CustomScripts\\AutoHideAlert.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-30T06:11:46.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "SignupWebApplication\\Controllers\\HomeController.cs",
@@ -132,21 +226,7 @@
               "RelativeToolTip": "SignupWebApplication\\Controllers\\HomeController.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAYwAQAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T13:46:03.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Web.config",
-              "DocumentMoniker": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Web.config",
-              "RelativeDocumentMoniker": "SignupWebApplication\\Web.config",
-              "ToolTip": "D:\\Claysys-Training-Exercises\\Phase_2_DOT_NET_MVC\\SignupWebApplication\\SignupWebApplication\\Web.config",
-              "RelativeToolTip": "SignupWebApplication\\Web.config",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAADsAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-08-29T13:38:32.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T13:46:03.577Z"
             }
           ]
         }
